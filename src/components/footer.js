@@ -25,7 +25,7 @@ export class Footer extends Component {
                     ),
             );
 
-        this.element = footer;
-        return this.element;
+        this._element = footer;
+        return this._element;
     }
 }
